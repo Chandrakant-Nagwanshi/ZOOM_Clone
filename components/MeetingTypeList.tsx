@@ -93,7 +93,7 @@ const MeetingTypeList = () => {
         title="View Recordings"
         description="Check out your recordings"
         handleClick={() => {
-          route.push("/recordings");
+          router.push("/recordings");
         }}
         className="bg-purple-1"
       />

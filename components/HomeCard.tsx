@@ -5,10 +5,10 @@ import React from "react";
 
 // interface is a type that is expendable
 interface HomeCardProps {
-  img: "string";
-  className: "string";
-  description: "string";
-  title: "string";
+  img: string;
+  className: string;
+  description: string;
+  title: string;
   handleClick: () => void;
 }
 
